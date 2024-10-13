@@ -14,18 +14,8 @@ GET /api/home/{user-id}
 ```
 
 3. Request Body
-```json
-{
-  "region-id" : "지역",
-  "mission count" : "달성한 미션 개수",
-  "my-mission" : {
-    "store-name" : "가게 이름",
-    "store-category" : "가게 카테고리",
-    "content" : "미션 내용",
-    "reward" : "성공 시 보상",
-    "deadline" : "마감기한"
-  }
-}
+```
+없음
 ```
 
 4. Request Header
@@ -78,17 +68,8 @@ completed : ?success='1', progressing : ?success='0'
 ```
 
 3. Request Body
-```json
-{
-  "missions" : {
-    "id" : "미션 아이디",
-    "store-name" : "가게 이름",
-    "content" : "미션 내용",
-    "reward" : "성공 시 보상",
-    "success" : "0 또는 1",
-    "deadline" : "마감기한"
-  }
-}
+```
+없음
 ```
 
 4. Request Header
